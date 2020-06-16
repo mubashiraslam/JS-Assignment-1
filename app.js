@@ -539,6 +539,7 @@
 //     alert("You input Lowercase Letter")
 // };
 
+
 // Chapter 12-13 Task #2
 
 // var num1 = +prompt("Enter first number");
@@ -604,5 +605,290 @@
 // };
 
 
-// Chapter 13-15 Task #1
+// Chapter 14-16 Task #1
 
+// var studentNames = new Array();
+
+
+// Chapter 14-16 Task #2
+
+// var studentNames = [];
+
+
+// Chapter 14-16 Task #3
+
+// var arr = ["Dog", "Cat", "Rat"];
+
+
+// Chapter 14-16 Task #4
+
+// var arr = [43, 45, 47, 49];
+
+
+// Chapter 14-16 Task #5
+
+// var booleanArray = [true, false];
+
+
+// Chapter 14-16 Task #6
+
+// var mixedArray = [9, "Mubashir" , true];
+
+
+// Chapter 14-16 Task #7
+
+// var educationSystems = ["SSC", "HSC", "BSC", "BS", "BCOM", "MS", "M. Phil.", "PhD"];
+// document.write("<h1> Qualifications: </h1> <br><br>");
+// document.write("1) " + educationSystems[0] + "<br>");
+// document.write("2) " + educationSystems[1] + "<br>");
+// document.write("3) " + educationSystems[2] + "<br>");
+// document.write("4) " + educationSystems[3] + "<br>");
+// document.write("5) " + educationSystems[4] + "<br>");
+// document.write("6) " + educationSystems[5] + "<br>");
+// document.write("7) " + educationSystems[6] + "<br>");
+// document.write("8) " + educationSystems[7] + "<br>");
+
+
+// Chapter 14-16 Task #8
+
+// var studentNames = [], studentMarks = [];
+// var totalMarks = 500;
+// studentNames[0] = prompt("Enter first Student Name");
+// studentMarks[0] = prompt("Enter first Student Marks");
+// studentNames[1] = prompt("Enter second Student Name");
+// studentMarks[1] = prompt("Enter second Student Marks");
+// studentNames[2] = prompt("Enter third Student Name");
+// studentMarks[2] = prompt("Enter third Student Marks");
+
+// document.write("Score of " + studentNames[0] + " is " + studentMarks[0] + ", Percentage: " + (studentMarks[0]/totalMarks)*100 + "% <br>");
+// document.write("Score of " + studentNames[1] + " is " + studentMarks[1] + ", Percentage: " + (studentMarks[1]/totalMarks)*100 + "% <br>");
+// document.write("Score of " + studentNames[2] + " is " + studentMarks[2] + ", Percentage: " + (studentMarks[2]/totalMarks)*100 + "% <br>");
+
+
+// Chapter 14-16 Task #9
+
+// var colorNames = ["Red", "Green", "Blue"];
+// alert(colorNames);
+// var temp = [];
+// temp[0] = prompt("Enter a Color Name to add in beginning");
+// colorNames.unshift(temp[0]);
+// alert(colorNames);
+// temp[1] = prompt("Enter a Color Name to add in last");
+// colorNames.push(temp[1]);
+// alert(colorNames);
+// temp[2] = prompt("Enter 1 of 2 Color Names to add in beginning");
+// colorNames.unshift(temp[2]);
+// temp[3] = prompt("Enter 2 of 2 Color Names to add in beginning");
+// colorNames.unshift(temp[3]);
+// alert(colorNames);
+// colorNames.shift();
+// alert("After deleting 1st Color: ");
+// alert(colorNames);
+// colorNames.pop();
+// alert("After deleting last Color: ");
+// alert(colorNames);
+// temp[4] = prompt("Enter a Position(number) to add a Color Name there");
+// temp[5] = prompt("Enter a Specific Color Name on that position");
+// colorNames.splice(temp[4]-1,0, temp[5]);
+// alert(colorNames);
+// temp[6] = prompt("Enter the position where you want to delete the Color");
+// temp[7] = prompt("Enter how many Color you want to delete");
+// colorNames.splice(temp[6]-1,temp[7]);
+// alert(colorNames);
+
+
+// Chapter 14-16 Task #10
+
+// var x = +prompt("Enter how many student are there");
+// var studentScores = [];
+// for (var i=0; i<x; i++){
+//     studentScores[i] = prompt("Enter the Students Scores (1 by 1)");
+// };
+// document.write("Scores of Student: " + studentScores + "<br>");
+// studentScores.sort();
+// document.write("Ordered Scores of Student: " + studentScores);
+
+
+// Chapter 14-16 Task #11
+
+// var cities = ["Karachi", "Lahore", "Islamabad", "Quetta", "Peshawar"];
+// document.write("Cities list: <br>" + cities + "<br> <br>");
+// var selectedCities = cities.slice(1,4);
+// document.write("Selected Cities list: <br>" + selectedCities);
+
+
+// Chapter 14-16 Task #12
+
+// var arr = ["This", "is", "my","cat"];
+// document.write("Array: <br>" + arr + "<br> <br>");
+// document.write("String: <br>" + arr.join(" ")); 
+
+// Chapter 14-16 Task #13
+
+// var arr = [];
+// arr[0] = "keyboard";
+// arr[1] = "mouse";
+// arr[2] = "printer"
+// arr[3] = "monitor";
+// document.write("Devices: <br>");
+// document.write(arr + "<br><br>");
+// for(var i=0;i<arr.length;i++){
+//     document.write("Out:<br>"+arr[i]+"<br>");
+// }
+
+
+// Chapter 14-16 Task #14
+
+// var arr1 = [];
+// arr1[0] = "keyboard";
+// arr1[1] = "mouse";
+// arr1[2] = "printer"
+// arr1[3] = "monitor";
+// document.write("Devices: <br>");
+// document.write(arr1 + "<br><br>");
+// for(var i=arr1.length-1;i>=0;i--){
+//     document.write("Out:<br>"+arr1[i]+"<br>");
+// }
+
+
+// Chapter 14-16 Task #15
+
+// var mobileManufac=["Apple","Samsung","Motorola","Nokia","Sony","Haier"];
+// document.write("<br>"+"<select ><option value=''>"+mobileManufac[0]
+//     +"</option><option value=''>"+mobileManufac[1]
+//     +"</option><option value=''>"+mobileManufac[2]
+//     +"</option><option value=''>"+mobileManufac[3]
+//     +"</option><option value=''>"+mobileManufac[4]
+//     +"</option><option value=''>"+mobileManufac[5]
+//     +"</option></select>");
+
+
+// Chapter 17-20 Task #1
+
+// var multiArray=[["",""],["",""],["",""]];
+
+
+// Chapter 17-20 Task #2
+
+// var multiArray1=[[0,1,2,3],
+//                  [1,0,1,2],
+//                  [2,1,0,1]];
+
+// for(var i=0;i<3;i++){
+//     for(var x=0;x<4;x++){
+//         document.write(multiArray1[i][x] + " ");
+//     }
+//     document.write("<br>");
+// };
+
+
+// Chapter 17-20 Task #3
+
+// var i;
+// for(i=1;i<=10;i++){
+//     document.write(i + "<br>");
+// }
+
+
+// Chapter 17-20 Task #4
+
+// var num = +prompt("Enter a number to show its multiplication table");
+// var length = +prompt("Enter length of multiplication Table");
+// document.write("Multiplication Table of " + num + "<br>");
+// document.write("Length " + length + "<br>");
+// for(var i=1;i<=length;i++){
+//     document.write(num + " x " + i + " = " + num*i + "<br>");
+// };
+
+
+// Chapter 17-20 Task #5
+
+// var fruits = ["apple", "banana", "mango", "orange", "strawberry"];
+// for(var i=0;i<fruits.length;i++){
+//     document.write(fruits[i] + "<br>");
+// };
+// document.write("<b> <br>")
+// for(var x=0;x<fruits.length;x++){
+//     document.write("Element at index " + x + " is "+ fruits[x] + "<br>");
+// };
+
+
+// Chapter 17-20 Task #6
+
+// document.write("<h2> Counting </h2> <br>");
+// for(var i=1;i<=15;i++){
+//     document.write(i + ", ");
+// }
+// document.write("<br><br>")
+// document.write("<h2> Reverse counting: </h2> <br>");
+// for(var j=10;j>0;j--){
+//     document.write(j + ", ");
+// }
+// document.write("<br><br>")
+// document.write("<h2> Even: </h2> <br>");
+// for(var even=0;even<=20;even++){
+//     if(even%2 == 0){
+//         document.write(even + ", ")
+//     };
+// };
+// document.write("<br><br>")
+// document.write("<h2> Odd: </h2> <br>");
+// for(var odd=0;odd<=20;odd++){
+//     if(odd%2 != 0){
+//         document.write(odd + ", ")
+//     };
+// };
+// document.write("<br><br>")
+// document.write("<h2> Series: </h2> <br>");
+// for(var series=1;series<=20;series++){
+//     if(series%2 == 0){
+//         document.write(series + "k, ")
+//     };
+// };
+
+
+// Chapter 17-20 Task #7
+
+// A = ["cake", "apple pie", "cookie", "chips", "patties"];
+// var search = prompt("Welcome to ABC Bakery, what do you want to order sir/ma'am?");
+// for(var i=0;i<A.length;i++){
+//     if(A[i] === search){
+//         document.write(search + " is <b>available</b> at index " + i + " in our bakery <br>");
+//     }
+//     else document.write("We are sorry. " + search + " is <b>not available</b> in our bakery <br>");
+//     break;
+// };
+
+
+// Chapter 17-20 Task #8
+
+// var A = [24, 53, 78, 91, 12];
+// document.write("Array items: "+A+"<br>");
+// var largest = A[0];
+// for(var i=0;i<A.length;i++){
+//     if(largest < A[i]){
+//         largest = A[i];
+//     };
+// };
+// document.write("The Largest Number is "+largest);
+
+
+// Chapter 17-20 Task #9
+
+// var A = [24, 53, 78, 91, 12];
+// document.write("Array items: "+A+"<br>");
+// var smallest = A[0];
+// for(var i=0;i<A.length;i++){
+//     if(smallest > A[i]){
+//         smallest = A[i];
+//     };
+// };
+// document.write("The Smallest Number is "+smallest);
+
+
+// Chapter 17-20 Task #10
+
+// var i;
+// for(i=5;i<=100;i+=5){
+//     document.write(i + ", ")
+// }
